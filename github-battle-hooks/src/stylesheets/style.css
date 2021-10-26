@@ -111,7 +111,7 @@ header h3{
 .brighter i{
     font-size: 2rem;
     color: rgb(255, 196, 0);
-    transform: rotate(30deg);
+    transform: rotate(-15deg);
 
 }
 
