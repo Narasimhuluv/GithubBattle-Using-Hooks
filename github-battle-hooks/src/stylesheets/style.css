@@ -233,7 +233,6 @@ label{
 }
 .disabled:disabled{
     cursor: not-allowed;
-    opacity: 20%;
 }
 .player_profile{
     margin-top: 2rem !important;
