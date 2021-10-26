@@ -108,6 +108,12 @@ header h3{
     width: 100%;
     transform: rotate(30deg);
 }
+.brighter i{
+    font-size: 2rem;
+    color: rgb(255, 196, 0);
+    transform: rotate(30deg);
+
+}
 
 /* ---------tags----------- */
 .tags{
@@ -234,6 +240,7 @@ label{
 }
 .disabled:disabled{
     cursor: not-allowed;
+    opacity: 35%;
 }
 .player_profile{
     margin-top: 2rem !important;

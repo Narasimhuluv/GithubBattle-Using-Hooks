@@ -17,7 +17,8 @@ function Header(props) {
                     </ul>
 
                     <figure className="brighter">
-                        {darkMode === true ? <img onClick={whiteModeset} src="https://cdn-icons.flaticon.com/png/512/881/premium/881115.png?token=exp=1635275806~hmac=c987fbcc0b27dc7d48da960471a5092a" alt="" /> : <img  onClick={darkModeset} src="https://cdn-icons.flaticon.com/png/512/2987/premium/2987996.png?token=exp=1635073156~hmac=a184c70a79d0c0cac09610a453a20d15" alt="" />}
+                        {/* {darkMode === true ? <img onClick={whiteModeset} src="https://cdn-icons.flaticon.com/png/512/881/premium/881115.png?token=exp=1635275806~hmac=c987fbcc0b27dc7d48da960471a5092a" alt="" /> : <img  onClick={darkModeset} src="https://cdn-icons.flaticon.com/png/512/2987/premium/2987996.png?token=exp=1635073156~hmac=a184c70a79d0c0cac09610a453a20d15" alt="" />} */}
+                        {darkMode === true ? <i onClick={whiteModeset} className="fas fa-sun"></i> : <i  onClick={darkModeset} className="fas fa-lightbulb"></i>}
                     </figure>
                 </nav>
             </div>
